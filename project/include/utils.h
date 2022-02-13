@@ -1,11 +1,11 @@
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef PROJECT_INCLUDE_UTILS_H_
+#define PROJECT_INCLUDE_UTILS_H_
 
 #include <stdio.h>
 
-size_t timer_from(unsigned char from);
+size_t timer_from(size_t from);
 // TODO: Implement `power of` function
-// int custom_pow(int base, int power);
+int custom_pow(int base, int power);
 
-#endif //  UTILS_H
+#endif  //  PROJECT_INCLUDE_UTILS_H_
 
